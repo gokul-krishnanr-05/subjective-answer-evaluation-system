@@ -1,0 +1,53 @@
+# === PHP / Web ===
+*.php.bak
+*.php~
+*.swp
+*.swo
+*~
+
+# IDE / Editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# OS
+desktop.ini
+
+# Composer / dependencies
+vendor/
+composer.lock
+
+# Python / ML helpers
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.env.local
+
+# Uploads (user-generated content - do not track)
+upload/
+upload-student/
+
+# Logs
+*.log
+error_log
+
+# Config / environment (keep sample only)
+config.php
+config.sample.php
+!.env.example
+
+# Build / dist
+dist/
+build/
+
+# Misc
+*.sql
+*.db
+*.sqlite
